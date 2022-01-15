@@ -3,9 +3,9 @@
 set -e
 
 github=https://github.com/Tungsten78
+modules=../../modules
 
 echo "Checking for modules..."
-modules=../../modules
 if [ ! -d "$modules" ] 
 then
     echo "Expecting modules at $PWD/$modules, ensure layout is installed at \$ATTRACT_HOME/layouts/[layout]/"
